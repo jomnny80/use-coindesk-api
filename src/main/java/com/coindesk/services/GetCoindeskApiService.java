@@ -5,10 +5,6 @@ import com.coindesk.repositories.CoindeskRepository;
 import com.google.gson.Gson;
 
 import com.google.gson.GsonBuilder;
-import com.google.gson.JsonObject;
-import org.apache.tomcat.util.json.JSONParser;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
@@ -30,9 +26,10 @@ public class GetCoindeskApiService {
             builder.serializeNulls();
             builder.setPrettyPrinting();
             Gson gson = builder.create();
-            Coindesk coindesk =(Coindesk) gson.fromJson(reader, Coindesk.class);
+            Coindesk coindesk = gson.fromJson(reader, Coindesk.class);
             System.out.println("call coindesk api = " + coindesk);
-
+//            repository.saveAndFlush(coindesk);
+            System.out.println(repository.findAll());
         } catch (IOException e) {
             e.printStackTrace();
         }

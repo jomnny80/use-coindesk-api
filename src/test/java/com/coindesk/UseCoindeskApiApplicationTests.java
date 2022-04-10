@@ -15,9 +15,8 @@ class UseCoindeskApiApplicationTests {
 	private CoindeskRepository repository;
 
 	@Test
-	void contextLoads() {
+	void callCoindeskApi() {
 		GetCoindeskApiService service = new GetCoindeskApiService();
 		service.getCoindesk(repository);
 	}
-
 }
