@@ -1,0 +1,18 @@
+2022-04-09 21:10:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'39,061.1695' (COIN: ""RATE"" DECIMAL(19, 2))"; SQL statement:
+insert into coin (id, code, description, rate, rate_float, symbol) values (default, ?, ?, ?, ?, ?) [22018-200]
+2022-04-09 21:19:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'39,055.5426' (COIN: ""RATE"" DECIMAL(19, 2))"; SQL statement:
+insert into coin (id, code, description, rate, rate_float, symbol) values (default, ?, ?, ?, ?, ?) [22018-200]
+2022-04-09 22:57:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'39,028.1488' (COIN: ""RATE"" DECIMAL(19, 2))"; SQL statement:
+insert into coin (id, code, description, rate, rate_float, symbol) values (default, ?, ?, ?, ?, ?) [22018-200]
+2022-04-09 23:03:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'39,051.0258' (COIN: ""RATE"" DECIMAL(19, 2))"; SQL statement:
+insert into coin (id, code, description, rate, rate_float, symbol) values (default, ?, ?, ?, ?, ?) [22018-200]
+2022-04-09 23:12:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'39,034.6629' (COIN: ""RATE"" DECIMAL(19, 2))"; SQL statement:
+insert into coin (id, code, description, rate, rate_float, symbol) values (default, ?, ?, ?, ?, ?) [22018-200]
+2022-04-10 15:36:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'39,193.4807' (COIN: ""RATE"" DECIMAL(19, 2))"; SQL statement:
+insert into coin (id, code, description, rate, rate_float, symbol) values (default, ?, ?, ?, ?, ?) [22018-200]
